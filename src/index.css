@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.App{
+    width: 360px;
+    height: 600px;
+    background-color: #025259;
+    display: flex;
+    flex-direction: column;
+    color: #F4E2DE;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+header{
+    text-align: center;
+}
+footer{
+    background-color: #F29325;
+    font-size: 20px;
+    height: 30px;
+    padding: 2px 2px;
+    text-align: center;
+    font-weight: bold;
+    position:absolute;
+    bottom: 0;
+    width: 99%;
+}
+button{
+    background-color: #F29325;
+    border: none;
+    padding: 15px 5px;
+    font-size: 32px;
+    color: #F4E2DE;
+    margin: 5px 30px;
+    border-radius: 5px;
+    transition: ease-out 0.3s;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #df7803;
+}
+button:active{
+    background-color: #9b5300;
+}
